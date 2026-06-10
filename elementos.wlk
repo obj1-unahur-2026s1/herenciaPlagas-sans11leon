@@ -23,6 +23,7 @@ class Huerta {
     }
   }
 }
+
 object nivelDeHuerta {
   var property valor = 10
 }

@@ -1,4 +1,5 @@
 import elementos.*
+
 class Plaga{
   var property poblacion
 
@@ -30,7 +31,7 @@ class Cucarachas inherits Plaga{
 
 class Pulga inherits Plaga{
   override method nivelDeDaño() = poblacion * 2
-  
+
   override method condicionAdicional() = true
 }
 
